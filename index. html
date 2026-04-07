@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weltora Éducation - Pass Réussite 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-slate-50 font-sans text-slate-900">
+
+    <nav class="bg-slate-900 text-white p-4 sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-tighter">WELTORA <span class="text-yellow-400">ÉDUCATION</span></h1>
+            <a href="https://wa.me/224621191297" class="bg-green-600 hover:bg-green-700 px-4 py-2 rounded-full text-sm font-bold transition">
+                <i class="fab fa-whatsapp mr-2"></i>S'inscrire
+            </a>
+        </div>
+    </nav>
+
+    <header class="bg-gradient-to-b from-slate-900 to-slate-800 text-white py-16 px-4 text-center">
+        <div class="max-w-3xl mx-auto">
+            <span class="bg-yellow-400 text-slate-900 px-3 py-1 rounded-full text-xs font-black uppercase mb-4 inline-block">Session 2026</span>
+            <h2 class="text-4xl md:text-6xl font-extrabold mb-6">Ton Pass Réussite <br><span class="text-blue-400">Bac & Brevet</span></h2>
+            <p class="text-lg text-slate-300 mb-8 italic">"Le succès n'est pas une chance, c'est une préparation."</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#brevet" class="bg-blue-600 hover:bg-blue-700 py-4 px-8 rounded-xl font-bold text-lg shadow-xl transition">Objectif BREVET</a>
+                <a href="#bac" class="bg-red-600 hover:bg-red-700 py-4 px-8 rounded-xl font-bold text-lg shadow-xl transition">Objectif BAC</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-12 container mx-auto px-4">
+        <h3 class="text-2xl font-bold text-center mb-10 border-b-4 border-yellow-400 w-fit mx-auto pb-2">La Méthode Commando</h3>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 text-center">
+                <div class="text-blue-500 text-4xl mb-4"><i class="fas fa-bolt"></i></div>
+                <h4 class="font-bold text-xl mb-2">Méthodes Flash</h4>
+                <p class="text-slate-600 text-sm">Finis les calculs interminables. Apprends les astuces pour répondre en 5 secondes.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 text-center">
+                <div class="text-red-500 text-4xl mb-4"><i class="fas fa-bullseye"></i></div>
+                <h4 class="font-bold text-xl mb-2">Focus Examens</h4>
+                <p class="text-slate-600 text-sm">On traite les 5 derniers sujets nationaux de Guinée. Aucune surprise le jour J.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 text-center">
+                <div class="text-green-500 text-4xl mb-4"><i class="fas fa-mobile-screen-button"></i></div>
+                <h4 class="font-bold text-xl mb-2">Suivi WhatsApp</h4>
+                <p class="text-slate-600 text-sm">Reçois tes infographies et tes exercices directement sur ton téléphone.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="brevet" class="py-12 bg-slate-100">
+        <div class="container mx-auto px-4">
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
+                <div class="md:w-1/3 bg-blue-600 p-8 text-white flex flex-col justify-center">
+                    <h3 class="text-3xl font-black mb-4 uppercase italic">Pack BREVET</h3>
+                    <p class="mb-6 opacity-90 text-sm leading-relaxed">Maths, Physique, Chimie transformés en jeux d'enfant pour les élèves de 10ème.</p>
+                    <div class="text-4xl font-black mb-2 italic">20.000 GNF <span class="text-sm font-normal">/ mois</span></div>
+                    <p class="text-xs uppercase tracking-widest text-blue-200">+10.000 GNF d'inscription</p>
+                </div>
+                <div class="md:w-2/3 p-8">
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i> Accès au groupe WhatsApp Elite</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i> 2 séances intensives par semaine</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i> Infographies de révision offertes</li>
+                    </ul>
+                    <a href="https://wa.me/224621191297?text=Je%20veux%20m'inscrire%20au%20Brevet" class="block text-center bg-slate-900 text-white font-bold py-4 rounded-xl hover:bg-slate-800 transition">Réserver ma place maintenant</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="bac" class="py-12 bg-slate-100">
+        <div class="container mx-auto px-4">
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row-reverse">
+                <div class="md:w-1/3 bg-red-600 p-8 text-white flex flex-col justify-center">
+                    <h3 class="text-3xl font-black mb-4 uppercase italic">Pack BAC</h3>
+                    <p class="mb-6 opacity-90 text-sm leading-relaxed">Le programme complet pour les Terminales (SM/SE) qui visent la mention.</p>
+                    <div class="text-4xl font-black mb-2 italic">30.000 GNF <span class="text-sm font-normal">/ mois</span></div>
+                    <p class="text-xs uppercase tracking-widest text-red-200">+10.000 GNF d'inscription</p>
+                </div>
+                <div class="md:w-2/3 p-8">
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i> Stratégies avancées pour le Bac</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i> Support spécial Optique & Chimie Organique</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i> Coaching mental pré-examen</li>
+                    </ul>
+                    <a href="https://wa.me/224621191297?text=Je%20veux%20m'inscrire%20au%20Bac" class="block text-center bg-slate-900 text-white font-bold py-4 rounded-xl hover:bg-slate-800 transition">Décrocher mon Bac</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-400 py-12 text-center">
+        <p class="mb-4">© 2026 Weltora Éducation - Dubréka, Guinée</p>
+        <div class="flex justify-center gap-6 text-xl">
+            <a href="https://wa.me/224621191297" class="hover:text-white"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="hover:text-white"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
